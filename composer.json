@@ -11,5 +11,8 @@
     },
     "config": {
         "bin-dir": "bin"
+    },
+    "scripts": {
+        "start": "php src/main.php"
     }
 }

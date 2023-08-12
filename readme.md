@@ -56,6 +56,14 @@ Para dejarlo claro, un producto nunca puede incrementar su Quality mayor a 50, s
 # Preguntas de conocimiento en Laravel
 
 1. Qué paquete o estrategia utilizarías para levantar un sistema de administración rápidamente? (Autenticación y CRUDs)
+
+
 2. Una breve explicación de cómo laravel utiliza la injección de dependencias
+
+
 3. En qué casos utilizarías un Query Scope?
+
+
 4. Qué convenciones utilizas en la creación e implementación de migraciones?
+
+

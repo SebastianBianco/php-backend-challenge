@@ -7,8 +7,8 @@ docker build \
     --tag ${CONTAINER_NAME}:latest \
     .
 
-# Run Container
-docker run \
+# Run Container in Windows
+MSYS_NO_PATHCONV=1 docker run \
 	--detach \
 	--interactive \
 	--tty \
