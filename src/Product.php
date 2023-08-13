@@ -12,6 +12,14 @@ abstract class Product
     public $DECREMENT_AFTER_SELLIN_QUALITY = 2;    
     public $MAX_PRODUCT_QUALITY = 50;
 
+    /**
+     * Constructor
+     *
+     * @param int $quality Product Quality.
+     * @param int $sellIn Number of days left to sell the product.
+     * @param string $name Product name.
+     * @return void 
+     */
     public function __construct($quality, $sellIn, $name)
     {
         $this->quality = $quality;

@@ -12,7 +12,7 @@ $villaPeruana->addProduct('Pisco Peruano', 14, 5);
 $villaPeruana->addProduct('Ticket VIP al concierto de Pink Floyd', 20, 20);
 $villaPeruana->addProduct('Tumi', 40, 5);
 
-// Un mes en dias. 
+// Simulates the one month in days.
 for ($i=0; $i < 31; $i++) { 
     $villaPeruana->update();
 }
